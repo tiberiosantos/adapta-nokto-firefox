@@ -1,0 +1,58 @@
+{
+  "manifest_version": 2,
+
+  "applications": {
+    "gecko": {
+      "id": "adapta-nokto-theme@tiberius",
+      "strict_min_version": "67.0"
+    }
+  },
+
+  "name": "Adapta Nokto Theme",
+  "version": "2019.11.17",
+  "description": "Adapta Nokto theme for Firefox",
+
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  },
+
+  "theme": {
+    "colors": {
+      "bookmark_text": "rgb(255, 255, 255)",
+      "button_background_active": "rgb(207, 206, 220, 0.25)", // Firefox 60
+      "button_background_hover": "rgba(207, 206, 220, 0.12)", // Firefox 60
+      "frame": "rgb(34, 45, 50)",
+      "frame_inactive": "rgb(88, 98, 103)",
+      "icons_attention": "rgb(0, 188, 212)", // Firefox 60
+      "ntp_background": "rgb(41, 52, 58)", // Firefox 63
+      "ntp_text": "rgb(255, 255, 255)", // Firefox 63
+      "popup": "rgb(41, 52, 58)", // Firefox 60
+      "popup_border": "rgb(62, 74, 80)",
+      "popup_highlight": "rgb(0, 188, 212)", // Firefox 60
+      "popup_highlight_text": "rgba(255, 255, 255, 0.9)", // Firefox 60
+      "popup_text": "rgb(255, 255, 255)", // Firefox 60
+      "sidebar": "rgb(41, 52, 58)", // Firefox 63
+      "sidebar_border": "rgb(62, 74, 80)", // Firefox 64
+      "sidebar_highlight": "rgb(0, 188, 212)", // Firefox 63
+      "sidebar_highlight_text": "rgba(255, 255, 255, 0.9)", // Firefox 63
+      "sidebar_text": "rgb(255, 255, 255)", // Firefox 63
+      "tab_background_text": "rgb(255, 255, 255)",
+      "tab_line": "rgb(0, 188, 212)",
+      "tab_loading": "rgb(0, 188, 212)", // Firefox 60
+      "tab_text": "rgb(255, 255, 255)",
+      "toolbar": "rgb(41, 52, 58)",
+      "toolbar_bottom_separator": "rgb(34, 45, 50)",
+      "toolbar_field": "rgb(38, 50, 56)",
+      "toolbar_field_border": "rgb(62, 74, 80)",
+      "toolbar_field_border_focus": "rgb(0, 188, 212)", // Firefox 61
+      "toolbar_field_focus": "rgb(41, 52, 58)", // Firefox 61
+      "toolbar_field_highlight": "rgb(0, 188, 212)", // Firefox 67
+      "toolbar_field_highlight_text": "rgba(255, 255, 255, 0.9)", // Firefox 61
+      "toolbar_field_separator": "rgba(255,255,255,0.2)",
+      "toolbar_field_text": "rgb(205, 214, 218)",
+      "toolbar_top_separator": "rgba(0, 0, 0, 0.13)",
+      "toolbar_vertical_separator": "rgb(34, 45, 50)"
+    }
+  }
+}
