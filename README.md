@@ -1,5 +1,6 @@
 <img width="128" src="https://github.com/tiberiosantos/adapta-nokto-firefox/raw/master/icon.png" />
+# Adapta Nokto Eta theme for Firefox
 
-Adapta Nokto Eta theme for Firefox, based on Arc Dark theme.
+<img src="https://https://github.com/tiberiosantos/adapta-nokto-firefox/raw/master/preview.jpg">
 
 Available for download in [Firefox Add-ons web site](https://addons.mozilla.org/en-US/firefox/addon/adapta-nokto-eta-theme/).
