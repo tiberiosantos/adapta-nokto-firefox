@@ -1,7 +1,7 @@
 PROJECT   := adapta-nokto-theme
 BUILD_DIR := build
 FILES     := manifest.json icon.svg
-VERSION   := $(shell awk -F\" '/"version"/ {print $$4}' manifest.json)
+VERSION   := $(shell awk -F\" '/"version"/ {print $$4}' theme.json)
 DEST      := ${BUILD_DIR}/${PROJECT}-${VERSION}.xpi
 
 ifeq ($(shell type tput >/dev/null 2>&1 && echo 1),1)
@@ -15,7 +15,9 @@ endif
 all:
 	@echo -n '[${CYAN}*${RESET}] Generating theme package ... '
 	@mkdir -p ${BUILD_DIR}
+	$(shell cat theme.json | jq -c > manifest.json)
 	@zip -q ${DEST} ${FILES}
+	@rm manifest.json
 	@echo 'Done!'
 	@echo '	${DEST}'
 

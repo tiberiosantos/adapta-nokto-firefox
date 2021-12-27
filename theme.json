@@ -1,0 +1,59 @@
+{
+  "manifest_version": 2,
+
+  "applications": {
+    "gecko": {
+      "id": "adapta-nokto-theme@tiberius",
+      "strict_min_version": "89.0"
+    }
+  },
+
+  "name": "Adapta Nokto Theme",
+  "version": "2021.12.27",
+  "description": "Adapta Nokto theme for Firefox",
+
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  },
+
+  "theme": {
+    "colors": {
+      "bookmark_text": "#ffffff",
+      "button_background_active": "rgba(207, 206, 220, 0.25)",
+      "button_background_hover": "rgba(207, 206, 220, 0.12)",
+      "frame": "#222d32",
+      "frame_inactive": "#586267",
+      "icons": "#cfd8dc",
+      "icons_attention": "#00bcd4",
+      "ntp_background": "#29343a",
+      "ntp_text": "#ffffff",
+      "popup": "#29343a",
+      "popup_border": "#3e4a50",
+      "popup_highlight": "#00bcd4",
+      "popup_highlight_text": "rgba(255, 255, 255, 0.9)",
+      "popup_text": "#ffffff",
+      "sidebar": "#29343a",
+      "sidebar_border": "#3e4a50",
+      "sidebar_highlight": "#00bcd4",
+      "sidebar_highlight_text": "rgba(255, 255, 255, 0.9)",
+      "sidebar_text": "#ffffff",
+      "tab_background_text": "#ffffff",
+      "tab_line": "#00bcd4",
+      "tab_loading": "#00bcd4",
+      "tab_selected": "#4b5162",
+      "tab_text": "#ffffff",
+      "toolbar": "#29343a",
+      "toolbar_bottom_separator": "#222d32",
+      "toolbar_field": "#29343a",
+      "toolbar_field_border": "#3e4a50",
+      "toolbar_field_border_focus": "#00bcd4",
+      "toolbar_field_focus": "#29343a",
+      "toolbar_field_highlight": "#00bcd4",
+      "toolbar_field_highlight_text": "rgba(255, 255, 255, 0.9)",
+      "toolbar_field_text": "#cdd6da",
+      "toolbar_top_separator": "rgba(0, 0, 0, 0.13)",
+      "toolbar_vertical_separator": "#222d32"
+    }
+  }
+}
