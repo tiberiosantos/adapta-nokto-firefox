@@ -3,13 +3,13 @@
 
   "applications": {
     "gecko": {
-      "id": "adapta-nokto-theme@jtbr",
+      "id": "adapta-nokto-theme@tiberius",
       "strict_min_version": "89.0"
     }
   },
 
   "name": "Adapta Nokto Theme",
-  "version": "2023.9.25.1",
+  "version": "2023.9.25",
   "description": "Adapta Nokto theme for Firefox",
 
   "icons": {
