@@ -2,6 +2,6 @@
 
 # Adapta Nokto Eta theme for Firefox
 
-<img width="800" src="https://raw.githubusercontent.com/tiberiosantos/adapta-nokto-firefox/master/preview.jpg">
+<img width="800" src="https://raw.githubusercontent.com/tiberiosantos/adapta-nokto-firefox/master/preview.png">
 
 Available for download in [Firefox Add-ons web site](https://addons.mozilla.org/en-US/firefox/addon/adapta-nokto-eta-theme/).
